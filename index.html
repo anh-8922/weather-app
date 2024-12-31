@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Weather App</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+DE+LA+Guides&display=swap" rel="stylesheet">
+
+        <!-- Assets Files -->
+        <link href="/assets/style.css" rel="stylesheet">
+        <script defer src="/assets/main.js"></script>
+
+    </head>
+    <body>
+      
+<!--div class="api">
+  <div class="container">🌞 This demo needs an OpenWeather API key to work. <a target="_blank" href="https://home.openweathermap.org/users/sign_up">Get yours here for free!</a>
+  </div>
+</div-->
+<section class="top-banner">
+  <div class="container">
+    <h1 class="heading">Weather App</h1>
+    <form>
+      <input type="text" placeholder="Search for a city" autofocus>
+      <button type="submit">SUBMIT</button>
+      <span class="msg"></span>
+    </form>
+    <!-- Clear session button -->
+    <button id="clear-session-btn">Clear Search Session</button>
+  </div>
+</section>
+<section class="ajax-section">
+  <div class="container">
+    <ul class="cities"></ul>
+  </div>
+</section>
+
+
+<footer class="page-footer">
+  <div class="container">
+    <small><a href="https://github.com/anh-8922" target="_blank">(っ◔◡◔)っ ❤  Anh Chau</a></small>
+  </div>
+</footer>
+
+
+
+    </body>
+</html>
